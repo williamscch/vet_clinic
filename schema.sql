@@ -1,5 +1,7 @@
 /* Database schema to keep the structure of entire database. */
 
+-- Day 1
+
 CREATE TABLE animals (
     id INT generated always as identity,
     name varchar(100) not null,
@@ -9,3 +11,8 @@ CREATE TABLE animals (
     weight_kg decimal,
     primary key(id)
 );
+
+-- Day 2
+
+ALTER TABLE animals
+ADD species CHAR;
