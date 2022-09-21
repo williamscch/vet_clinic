@@ -10,6 +10,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Use [data.sql](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. 
 
+### DB Schema
+
+![vets_clinic_db_schema](https://user-images.githubusercontent.com/102382778/191599119-904495ff-5c94-494b-8826-b09d2c1e2ab5.png)
+
 ## Authors
 
 👤 **Williams Colmenares**
